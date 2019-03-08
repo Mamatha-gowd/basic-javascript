@@ -1,3 +1,4 @@
+
 // Do not change any of the funcxtion names
 
 const multiplyByTen = num => num * 10;
@@ -55,8 +56,6 @@ const getCircleArea = radius => Math.floor(Math.PI * radius * radius);
 const getRectangularPrismVolume = (length, width, height) =>
   length * width * height;
 
-// Do not modify code below this line.
-// --------------------------------
 
 module.exports = {
   multiplyByTen,
