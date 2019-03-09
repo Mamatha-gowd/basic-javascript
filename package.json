@@ -28,6 +28,8 @@
   "dependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
-    "eslint-config-airbnb": "^14.1.0"
+    "eslint-config-airbnb": "^14.1.0",
+    "npm": "^6.9.0",
+    "npm4": "^1.0.0"
   }
 }
