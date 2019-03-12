@@ -105,7 +105,7 @@ const raiseToPower = (num, exponent) => {
 const roundNumber = (num) => {
   // round num and return it
   // code here
-  return Math.round(num);
+  return Math.ceil(num);
 };
 
 const roundUp = (num) => {
