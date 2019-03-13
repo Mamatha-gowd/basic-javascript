@@ -34,7 +34,7 @@ const isInteger = (num) => {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  return (Math.floor(num))
+  return (Math.floor(num) < num) ? false : true;
 };
 
 const fizzBuzz = (num) => {
