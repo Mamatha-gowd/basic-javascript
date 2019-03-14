@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 /* eslint-disable no-undef */
 const {
   getFirstItem,
@@ -23,7 +24,9 @@ describe('Project 4', () => {
 
   describe('getLength', () => {
     it('should pass the length of the collection to the cb', () => {
-      const collection = [true, false, {}, []];
+      const collection = [true, false, {},
+        []
+      ];
       let collectionLength;
       getLength(collection, (length) => {
         collectionLength = length;
