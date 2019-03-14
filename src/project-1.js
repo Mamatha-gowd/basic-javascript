@@ -13,26 +13,26 @@ const subtractFive = num => {
 const areSameLength = (str1, str2) => {
   // return true if the two strings have the same length
   // otherwise return false
-  return str1.length === str2.length ? true : false;
+  return str1.length === str2.length;
 };
 
 const areEqual = (x, y) => {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  return x === y ? true : false;
+  return x === y;
 };
 
 const lessThanNinety = num => {
   // return true if num is less than ninety
   // otherwise return false
-  return num < 90 ? true : false;
+  return num < 90;
 };
 
 const greaterThanFifty = num => {
   // return true if num is greater than fifty
   // otherwise return false
-  return num > 50 ? true : false;
+  return num > 50;
 };
 
 const add = (x, y) => {
@@ -62,13 +62,13 @@ const getRemainder = (x, y) => {
 const isEven = num => {
   // return true if num is even
   // otherwise return false
-  return num % 2 === 0 ? true : false;
+  return num % 2 === 0;
 };
 
 const isOdd = num => {
   // return true if num is odd
   // otherwise return false
-  return num % 2 !== 0 ? true : false;
+  return num % 2 !== 0;
 };
 
 const square = num => {
